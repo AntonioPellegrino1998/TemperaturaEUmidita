@@ -2,6 +2,7 @@
 #include <dht.h>
 dht DHT;
 #define DHT11_PIN 1
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
